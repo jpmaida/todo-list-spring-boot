@@ -16,4 +16,10 @@ mvn clean package
 
 ## How to run ?
 
-To run this application use: `mvn spring-boot:run -Dspring-boot.run.jvmArguments="-Dtodo.list.editable=<false|true>"`.
+To run this application execute the following commands:
+```
+cd /tmp
+git clone https://github.com/jpmaida/todo-list-spring-boot.git
+cd todo-list-spring-boot
+mvn spring-boot:run -Dspring-boot.run.jvmArguments="-Dtodo.list.editable=<false|true>"
+```
