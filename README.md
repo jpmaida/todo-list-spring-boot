@@ -6,7 +6,13 @@ Repository dedicated to the Todo List backend application. This application is w
 
 ## How to build ?
 
-To build this application use: `mvn clean package`.
+To build this application execute the following commands: 
+```
+cd /tmp
+git clone https://github.com/jpmaida/todo-list-spring-boot.git
+cd todo-list-spring-boot
+mvn clean package
+```
 
 ## How to run ?
 
